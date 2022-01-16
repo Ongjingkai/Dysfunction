@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+
+
+  <!--back to top-->
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main Page</a></li>
+          <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Addictions</a>
+              <div class="dropdown-content">
+                <a href="smoking.html">Smoking</a>
+                <a href="gambling.html">Gambling</a>
+                <a class="active" href="alcohol.html">Alcohol</a>
+                <a href="socialmedia.html">Social Media</a>
+              </div>
+          </li>
+          <li><a href="../therapy.html">Therapy</a></li>
+          <li><a href="../contacts.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+          <td>
+            <h1 align="center">Alcohol Addiction</h1>
+          </td>
+          <td>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="container">
+      <div>
+        <h1>Method of quitting</h1>
+      </div>
+      <div id="box">
+        <li>Stay hydrated!</li>
+        <h4>-in some research, some types of alcohol helps you quench thirst and most people tend to consume alcohol when they are not properly hydrated.</h4>
+        <li>Keep attractive non-alcoholic options at home.</li>
+        <h4>-keeping your house stocked with good teas, sparkling water, and other non-alcoholic drinks will also help. Substituting alcoholic drinks with tasty non-alcoholic drinks is a good alternative for people choosing to reduce their intake.</h4>
+        <li>Set yourself a drink limit and count your drinks.</li>
+        <h4>-Keep the max number of drinks to 10/week and 4/drinking session, You’ll find you can do without that extra drink after all and your body will thank you for it the next day.</h4>
+        <li>Swap to low or no alcohol alternatives.</li>
+        <h4>-Keep the max number of drinks to 10/week and 4/drinking session, You’ll find you can do without that extra drink after all and your body will thank you for it the next day.</h4>
+      </div>
+
+      <div id="container">
+        <div>
+          <h1 align="center">I Quit program</h1>
+        </div>
+        <div id="box">
+        We don't like to sugercoat things, we know that quitting is hard.<br>
+        By signing up to I QUIT, our team would work with you to help curb your addiction one day at the time.
+        Click here to understand more about the program.
+        </div>
+
+
+
+    </div>
+  </div>
+
+<!-- ####### END FOOTER CONTAINER ####### -->
+
+    <div id="footer">
+      Copyright &copy; Team Muffins.
+    </div>
+  <body>
+</html>

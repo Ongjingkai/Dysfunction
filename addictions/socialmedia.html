@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+
+
+  <!--back to top-->
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main Page</a></li>
+          <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Addictions</a>
+              <div class="dropdown-content">
+                <a href="smoking.html">Smoking</a>
+                <a href="gambling.html">Gambling</a>
+                <a href="alcohol.html">Alcohol</a>
+                <a class="active" href="socialmedia.html">Social Media</a>
+              </div>
+          </li>
+          <li><a href="../therapy.html">Therapy</a></li>
+          <li><a href="../contacts.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+          <td>
+            <h1 align="center">Socialmedia</h1>
+          </td>
+          <td>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="container">
+      <div>
+        <h1>Prototype only</h1>
+      </div>
+      <div id="box">
+        This is only a prototype site on how our project would look like.<br>
+        If you really want to find out how to cope with social media click <a href="https://www.insider.com/how-to-break-social-media-addiction#:~:text=Delete%20apps%2C%20or%20disable%20notifications,limits%20and%20stick%20to%20them.">here</a>
+      </div>
+
+
+
+
+    </div>
+
+<!-- ####### END FOOTER CONTAINER ####### -->
+
+    <div id="footer">
+      Copyright &copy; Team Muffins.
+    </div>
+  <body>
+</html>
